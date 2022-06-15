@@ -132,9 +132,8 @@ form {
 }
 
 .textOnpic {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.404);
     color: white;
-    opacity: .5;
     position: absolute;
     height: 100px;
     width: 100%;
@@ -147,6 +146,15 @@ form {
     
 }
 
+.textOnpic > img {
+    height: 100px;
+    width: auto;
+    opacity: 1;
+}
+
+.textOnpic > p {
+    opacity: 1;
+}
 
 
 .picLegal {
