@@ -1,3 +1,28 @@
+// confirm password
+
+function onChange() {
+    const pw = document.querySelector('input[name=password]');
+    const conf = document.querySelector('input[name=confirm]');
+    const val = document.querySelector('.validator');
+    console.log(pw, conf)
+    if (pw.value.length < 8) {
+        val.textContent = 'Passwords too SHORT!';
+        val.style.color = "red";
+        return;
+    }
+    
+    if (conf.value == pw.value) {
+        val.textContent = "Passwords match!";
+        val.style.color = "green";
+    } else {
+        val.textContent = 'Passwords do not match!';
+        val.style.color = "red";
+
+        
+    
+}
+}
+    
 //footer
 
 const footer = document.querySelector('.footer');
