@@ -4,11 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-up page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--<div class ="header">
+        tehdään js jos sikseen
+        <p>tähän ei tule mitään</p>
+    </div>-->
     
+    <div class = "main">
+        <div class = "left">
+            <div class="textOnpic">
+                <p>Here is text to go on top of pic</p>
+            </div>
+            <div class = "picLegal">pic from unsplash.com by <a id = "leftLegal" href="https://unsplash.com/@neonbrand">Kenny Eliasson</a></div>
+        </div>
+        <div class = "right">
+            <div class = "rightTop">
+                <p id = 'p1'>A long time ago, people used to live in caves. But then they started to build houses out of bricks. And then they started to put roofs on the houses so that it would be dry inside. And then people started to live in these houses instead of caves.</p>
+                <p id = 'p2'>Let us build a house for <b>you!</b></p>
+                <p id = 'p3'>You <em>know</em> you want to!</p>
+            </div>
+            <div class = "rightMid">
+                <p id = 'contact'>Contact us!</p>
+                <form action = "http://httpbin.org/post" method="post">
+                            
+                            <div class="leftPanel">
+                                <fieldset>
+                                    <div>
+                                        <label for="first_name">FIRST NAME</label>
+                                        <input type="text" name="first_name" id="first_name" placeholder="bob" required>
+                                    </div>
+                                    <div>
+                                        <label for="email">EMAIL</label>
+                                        <input type="email" name="email" id="email" placeholder="bob@builds.com" required>
+                                    </div>
+                                </fieldset>
+                            </div>
+                            <div class="rightPanel"></div>
+                                <fieldset>
+                                    <div>
+                                        <label for="last_name">LAST NAME</label>
+                                        <input type="text" name="last_name" id="last_name" placeholder="builder" required>
+                                    </div>
+                                    <div>
+                                        <label for="phone_number">PHONE NUMBER</label>
+                                        <input type="text" name="phone_number" id="phone_number" placeholder="040-1234567" min ="11" max = "11" required>
+                                    </div>
+                                </fieldset>
+                        </div>
+                </form>
+            <div class = "rightBottom">
+                <p>rightBottom</p>
+                <button type="submit" id = "submit">Send!</button>
+                <button type="reset" id = "reset">Reset fields</button>
+            </div>
+            <div class="footer">
+                <!-- tehdään js-->
+            </div>
+        </div>
+
+    </div>
+   
 
     <script src="javascript.js"></script>
 </body>
