@@ -122,12 +122,18 @@ field:focus {
     margin-top: 30px;
 }
 
-.rightMid > #contact {
-
-}
 
 .rightBottom {
     background-color: rgb(235, 233, 233);
+}
+
+.already {
+    font-size: 10px;
+
+}
+
+.already > a {
+    text-decoration: none;
 }
 
 /*LEFT SIDE*/
